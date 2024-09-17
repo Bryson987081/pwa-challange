@@ -1,4 +1,4 @@
-const { offlineFallback, warmStrategyCache } = require('workbox-recipes');
+const { warmStrategyCache } = require('workbox-recipes');
 const { CacheFirst , StaleWhileRevalidate } = require('workbox-strategies');
 const { registerRoute } = require('workbox-routing');
 const { CacheableResponsePlugin } = require('workbox-cacheable-response');
@@ -33,8 +33,10 @@ registerRoute(({ request}) => ['style', 'script', 'worker'].includes(request.des
     plugins: [
       new CacheableResponsePlugin({
         statuses: [0, 200],
-        maxAgeSeconds: 30 * 24 * 60 * 60,
       }),
+      new ExpirationPlugin({
+        maxAgeSeconds: 30 * 24 * 60 * 60,
+      })
     ]
   })
 );
