@@ -14,4 +14,5 @@ The purpose of this challenge was to modify the give starter code so that a user
 
 [LiveUrl](https://pwa-demo-uoex.onrender.com)
 
-[GitHub](hhtps://github.com/Bryson987081/pwa-challenge)
+
+[GitHub](https://github.com/Bryson987081/pwa-challange)
