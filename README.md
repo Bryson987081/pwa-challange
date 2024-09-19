@@ -10,6 +10,17 @@ The purpose of this challenge was to modify the give starter code so that a user
 
 ## Screenshots
 
+### Manifest
+![Manifest](./assets/images/manifest.png)
+
+
+### Service Worker
+![ServiceWorker](./assets/images/serviceworker.png)
+
+
+### INdexedDb
+![IndexedDb](./assets/images/indexeddb.png)
+
 ## Links
 
 [LiveUrl](https://pwa-demo-uoex.onrender.com)
