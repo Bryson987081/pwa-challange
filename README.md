@@ -1,4 +1,4 @@
-# Pwa Challenge
+# PWA Challenge
 
 ## What was the purpose?
 
