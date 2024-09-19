@@ -18,7 +18,7 @@ The purpose of this challenge was to modify the give starter code so that a user
 ![ServiceWorker](./assets/images/serviceworker.png)
 
 
-### INdexedDb
+### IndexedDb
 ![IndexedDb](./assets/images/indexeddb.png)
 
 ## Links
